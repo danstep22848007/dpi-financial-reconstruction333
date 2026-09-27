@@ -472,7 +472,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Water-damaged stock.",
-      "answer": "EUR 22,000 wet basement stock is unsaleable and written down to nil; EUR 2,000 disposal provision is recognised.",
+      "answer": "EUR 22,000 wet basement stock is unsaleable and written down to nil. The EUR 2,000 disposal quote is a conditional scenario, not a booked provision without evidence of a present obligation.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "11 Evidence Received After Takeover.pdf"
@@ -557,7 +557,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Defer the EUR 90,000 September deposits.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: delivery occurs after 31 August.",
-      "studentReasoning": "Draft for Dans to verify: The company still owed the September events at reporting date. Signed delivery information is stronger evidence than management's cash-based claim.",
+      "studentReasoning": "I would record the €90,000 received for September orders as a liability at 31 August. The cash had arrived, but the company had not yet delivered the goods or services it owed the customers.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -566,7 +566,7 @@
         "equity": -90000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Reclassification from August revenue; cash receipt is already recorded."
     },
@@ -583,7 +583,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Classify the EUR 50,000 advance as debt.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the bank agreement requires repayment.",
-      "studentReasoning": "Draft for Dans to verify: Repayable funds create debt. The bank agreement overrides management's unsupported label.",
+      "studentReasoning": "I would record the €50,000 bank advance as a loan because the agreement requires repayment, so the receipt increases cash and debt; it is not income.",
       "statementEffect": {
         "profit": -50000,
         "cash": 0,
@@ -592,7 +592,7 @@
         "equity": -50000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Reclassification from management income; cash receipt is already recorded."
     },
@@ -609,7 +609,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Capitalise the EUR 60,000 packaging machine.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the new machine was installed and available for use.",
-      "studentReasoning": "Draft for Dans to verify: The machine is a long-lived operating asset that provides future benefit, so it belongs in PPE.",
+      "studentReasoning": "I would capitalise the €60,000 packaging machine as a PPE because the business bought it for repeated use and not to sell it as inventory.",
       "statementEffect": {
         "profit": 60000,
         "cash": 0,
@@ -618,7 +618,7 @@
         "equity": 60000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Correction of management expense classification; cash payment is already recorded."
     },
@@ -635,7 +635,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Capitalise the EUR 20,000 photo booth.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the purchased booth is an operating asset.",
-      "studentReasoning": "Draft for Dans to verify: The photo booth will generate benefits beyond the period and is capitalised with PPE.",
+      "studentReasoning": "I would also capitalise the €20,000 photo booth. It is equipment used to provide services over more than one period, so charging its entire cost as an immediate expense would not reflect its purpose.",
       "statementEffect": {
         "profit": 20000,
         "cash": 0,
@@ -644,7 +644,7 @@
         "equity": 20000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Correction of management expense classification; cash payment is already recorded."
     },
@@ -661,7 +661,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Expense the EUR 10,000 restorative repair.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the invoice says normal output was restored.",
-      "studentReasoning": "Draft for Dans to verify: Restoration of normal condition is period repair expense, not capital expenditure.",
+      "studentReasoning": "I would expense the €10,000 as repair and maintenance. The work restored the machine’s ordinary operation. The evidence does not show a new asset or improvement that should be capitalised.",
       "statementEffect": {
         "profit": -10000,
         "cash": 0,
@@ -670,7 +670,7 @@
         "equity": -10000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Correction of management PPE classification; cash payment is already recorded."
     },
@@ -687,7 +687,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Treat the EUR 70,000 villa payment as an owner distribution.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: bank evidence and the personal reservation support a distribution.",
-      "studentReasoning": "Draft for Dans to verify: Personal founder spending is a withdrawal of equity. It is shown as financing cash outflow and distribution, not business expense.",
+      "studentReasoning": "I would treat the €70,000 villa payment as an owner distribution. The reservation was in the founder’s personal name and other than that had no connection to the company.",
       "statementEffect": {
         "profit": 70000,
         "cash": 0,
@@ -696,7 +696,7 @@
         "equity": 0
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Reclassification from business expense to direct equity distribution; total closing equity and cash do not change."
     },
@@ -713,7 +713,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Treat the EUR 40,000 owner-card payment as an owner distribution.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: no authorised employment bonus was evidenced.",
-      "studentReasoning": "Draft for Dans to verify: The payment is a related-party withdrawal, not compensation for evidenced employee service.",
+      "studentReasoning": "I would treat the other €40,000 of personal owner-card spending as distributions too. A payment made from the company’s funds is not automatically a cost of running the business.",
       "statementEffect": {
         "profit": 40000,
         "cash": 0,
@@ -722,7 +722,7 @@
         "equity": 0
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Reclassification from business expense to direct equity distribution; total closing equity and cash do not change."
     },
@@ -739,7 +739,7 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Use EUR 396,000 count-based consumption and flag the EUR 9,000 conflict.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed on the count-based amount; Agent 2 presented the EUR 22,000 write-down in cost of sales while Agent 1 placed it in operating expenses.",
-      "studentReasoning": "Draft for Dans to verify: The count and third-party purchase evidence give a reconcilable roll-forward. The conflict is retained as an uncertainty rather than booked without support.",
+      "studentReasoning": "I choose the count-based figure of €396,000 for normal materials consumed: €80,000 opening inventory plus €459,000 purchases, less €143,000 physically counted at closing. The warehouse note says €405,000, creating a €9,000 discrepancy. I give more weight to the reconcilable stock count and purchase records, but I would disclose the discrepancy rather than claim it has been resolved. The separate €22,000 damaged-stock write-down brings total materials cost under this treatment to €418,000.",
       "statementEffect": {
         "profit": -418000,
         "cash": 0,
@@ -748,7 +748,7 @@
         "equity": -418000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": true,
       "effectBasis": "Standalone recognition of materials cost, including the damaged-stock write-down."
     },
@@ -764,7 +764,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Classify EUR 80,000 event-delivery payroll as direct cost.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: staff work directly on paid events.",
-      "studentReasoning": "Draft for Dans to verify: Direct delivery labour is included in cost of sales; this changes presentation, not total profit.",
+      "studentReasoning": "I would classify the €80,000 paid to staff who delivered customer events as a direct cost of those events. This changes where the expense appears in the profit and loss statement, but not total profit.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -773,7 +773,7 @@
         "equity": 0
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Presentation or board decision; no incremental journal entry."
     },
@@ -861,7 +861,7 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Recognise EUR 24,000 depreciation.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed using the independent schedule estimate.",
-      "studentReasoning": "Draft for Dans to verify: PPE cost must be allocated over use. The independent estimate is the best evidence supplied.",
+      "studentReasoning": "I would recognise depreciation on the business’s equipment because it is used over time, rather than treating its purchase cost as the expense of one period. The period charge used here is €24,000.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -870,7 +870,7 @@
         "equity": -24000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -887,7 +887,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Reduce receivables by EUR 18,000 for R-17.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the liquidator notice confirms the reporting-date condition.",
-      "studentReasoning": "Draft for Dans to verify: Receivables must reflect recoverability at reporting date; post-year-end confirmation strengthens the conclusion.",
+      "studentReasoning": "I would recognise an €18,000 credit-loss allowance against R-17. The liquidator’s notice says no distribution is expected and confirms that the year-end receivable was unlikely to be collected. The reason is the expected loss.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -896,7 +896,7 @@
         "equity": -18000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -905,7 +905,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Damaged stock.",
-      "answer": "Write down EUR 22,000 damaged stock to nil and recognise EUR 2,000 disposal provision separately.",
+      "answer": "Write down EUR 22,000 damaged stock to nil. Do not book the EUR 2,000 disposal quote as a provision without evidence of a present obligation; show it as a conditional scenario.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "11 Evidence Received After Takeover.pdf"
@@ -913,18 +913,18 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Write down EUR 22,000 damaged stock and provide EUR 2,000 for disposal.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed on the amounts; Agent 2 presented the stock write-down within cost of sales.",
-      "studentReasoning": "Draft for Dans to verify: Inventory is carried at recoverable value, not merely counted quantity.",
+      "studentReasoning": "I would write the €22,000 damaged stock down to zero because it cannot be sold. I would not recognise a separate €2,000 disposal provision in the main accounts: the independent quote estimates a possible cost, but I have not found evidence of an obligation to pay it at 31 August. I would show the €2,000 provision as a conditional scenario if this obligation is required later.",
       "statementEffect": {
-        "profit": -24000,
+        "profit": -22000,
         "cash": 0,
         "assets": -22000,
-        "liabilities": 2000,
-        "equity": -24000
+        "liabilities": 0,
+        "equity": -22000
       },
-      "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "changedFromAI": true,
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": true,
-      "effectBasis": "Standalone recognition of the stock write-down and estimated disposal liability."
+      "effectBasis": "Main-account stock write-down only; EUR 2,000 disposal provision is excluded and shown as a conditional scenario."
     },
     {
       "id": "D059",
@@ -939,7 +939,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Recognise the EUR 25,000 probable employee claim.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: external counsel supplied the best estimate.",
-      "studentReasoning": "Draft for Dans to verify: A probable obligation with a reliable best estimate is recognised as a provision even though payment has not occurred.",
+      "studentReasoning": "I would recognise a provision for the employee claim. External counsel says the claim was probable at the reporting date, so leaving it out merely because no cash had yet been paid would understate liabilities and expenses.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -948,7 +948,7 @@
         "equity": -25000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1017,7 +1017,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Recognise the EUR 180,000 NorthStar accepted sale.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: customer acceptance precedes reporting date.",
-      "studentReasoning": "Draft for Dans to verify: Revenue follows transfer of goods/services. The contract was accepted before reporting date.",
+      "studentReasoning": "I would recognise €180,000 revenue because NorthStar accepted the delivery before 31 August. Revenue follows the completed transaction rather than the timing of cash; the bank records show this sale was collected.",
       "statementEffect": {
         "profit": 180000,
         "cash": 0,
@@ -1026,7 +1026,7 @@
         "equity": 180000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Revenue recognition from a deposit already received, with cash unchanged."
     },
@@ -1043,7 +1043,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Recognise the EUR 200,000 Freedom accepted sale.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the EUR 58,000 unpaid balance remains receivable.",
-      "studentReasoning": "Draft for Dans to verify: Collection and performance are distinct. Recognition of the delivered sale is EUR 200,000.",
+      "studentReasoning": "I would recognise the €200,000 accepted sale. The €58,000 still unpaid is a receivable and does not prevent recognition of the delivered sale.",
       "statementEffect": {
         "profit": 200000,
         "cash": 0,
@@ -1052,7 +1052,7 @@
         "equity": 200000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Revenue recognition from EUR 142,000 already collected plus EUR 58,000 receivable."
     },
@@ -1069,7 +1069,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Recognise the EUR 100,000 Phoenix completed event.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: event completion supports the full invoice.",
-      "studentReasoning": "Draft for Dans to verify: The event was completed before reporting date, so the full invoiced amount is recognised.",
+      "studentReasoning": "I would recognise €100,000 revenue for the completed Phoenix event. The customer’s acceptance supports that the service was performed, while the €30,000 is recorded as a receivable.",
       "statementEffect": {
         "profit": 100000,
         "cash": 0,
@@ -1078,7 +1078,7 @@
         "equity": 100000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Revenue recognition from EUR 70,000 already collected plus EUR 30,000 receivable."
     },
@@ -1095,7 +1095,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Recognise the EUR 120,000 Liberty delivered order.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: customer acceptance supports the full order.",
-      "studentReasoning": "Draft for Dans to verify: Delivery occurred on 20 June. The unpaid amount remains a receivable.",
+      "studentReasoning": "I would recognise €120,000 revenue because the order was delivered and accepted before the reporting date. The remaining €25,000 is a receivable.",
       "statementEffect": {
         "profit": 120000,
         "cash": 0,
@@ -1104,7 +1104,7 @@
         "equity": 120000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Revenue recognition from EUR 95,000 already collected plus EUR 25,000 receivable."
     },
@@ -1121,7 +1121,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Defer both undelivered September events.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: neither service was performed by 31 August.",
-      "studentReasoning": "Draft for Dans to verify: No performance obligation had been satisfied by 31 August, so the funds are contract liabilities.",
+      "studentReasoning": "I would defer the €60,000 NB-SEP and €30,000 FF-SEP deposits. Neither order had been delivered by 31 August.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1130,7 +1130,7 @@
         "equity": -90000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Same EUR 90,000 contract liability as D041; repeated decision effect, not an additional entry."
     },
@@ -1173,7 +1173,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Provide EUR 18,000 for the irrecoverable R-17 balance.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: no liquidation distribution is expected.",
-      "studentReasoning": "Draft for Dans to verify: The later notice is adjusting evidence for the year-end receivable and supports a full specific allowance.",
+      "studentReasoning": "I would use a specific €18,000 allowance for R-17 based on the liquidator’s notice. That leaves €186,000 gross receivables and €168,000 net receivables.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -1182,7 +1182,7 @@
         "equity": -18000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1199,7 +1199,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Write off EUR 22,000 damaged inventory.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the stock has no saleable value.",
-      "studentReasoning": "Draft for Dans to verify: The recoverable amount is nil. The inventory write-down is EUR 22,000.",
+      "studentReasoning": "I would write off the full €22,000 carrying value of the basement stock. It was physically present, but the independent assessment says it has no value.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -1208,7 +1208,7 @@
         "equity": -22000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1225,7 +1225,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Provide EUR 25,000 for the probable legal claim.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: counsel states a EUR 25,000 best estimate.",
-      "studentReasoning": "Draft for Dans to verify: The existing probable obligation requires provision recognition at the best estimate.",
+      "studentReasoning": "I would measure the employee-claim provision at €25,000, the external lawyer’s best estimate. The lawyer’s €20,000–€30,000 range shows uncertainty, but €25,000 is supported as the best estimate—not chosen simply because it is the midpoint. It could be revised if better evidence becomes presented.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -1234,7 +1234,7 @@
         "equity": -25000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1250,7 +1250,7 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Recognise EUR 24,000 period depreciation.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the supplied asset schedule estimates EUR 24,000.",
-      "studentReasoning": "Draft for Dans to verify: The independent estimate is the best available basis for allocation of PPE cost in the period.",
+      "studentReasoning": "I would use the asset schedule’s €24,000 period depreciation estimate, while recognising that its accuracy depends on the equipment’s in-service dates and useful lives.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -1259,7 +1259,7 @@
         "equity": -24000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1276,7 +1276,7 @@
       "confidence": "high",
       "aiProposal": "Agent 1 summary: Report EUR 121,000 closing inventory after the write-down.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed with the physical count less damaged stock; the separate EUR 405,000 consumption note conflicts by EUR 9,000.",
-      "studentReasoning": "Draft for Dans to verify: Inventory is reported at recoverable amount. The count establishes quantity; the assessment establishes the write-down.",
+      "studentReasoning": "I would report €121,000 closing inventory: the €143,000 physical count less €22,000 of unsaleable stock. The value of lost stock cannot be recovered by the business and should not be included in closing inventory.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -1285,7 +1285,7 @@
         "equity": -22000
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Standalone recognition effect. Related decision IDs may describe the same entry."
     },
@@ -1461,7 +1461,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "EUR 72,000 is the current reconstructed profit from the supplied case files. The opening insurance position is not evidenced, so the amount needs review if that source is provided.",
+      "answer": "EUR 74,000 is the current reconstructed profit from the supplied case files, excluding the unsupported EUR 2,000 disposal provision. The opening insurance position is not evidenced and remains under review.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx",
         "05 Warehouse Count Marta Notes.pdf",
@@ -1490,7 +1490,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Approve corrected accounts before valuation",
-      "answer": "Use the reconstructed accounts as a working valuation basis, with the EUR 9,000 inventory variance and missing insurance opening evidence explicitly open for review.",
+      "answer": "Use the EUR 74,000-profit reconstructed accounts as a working valuation basis, disclosing the EUR 9,000 inventory variance, missing insurance evidence, and conditional EUR 2,000 disposal scenario.",
       "evidence": [
         "11 Evidence Received After Takeover.pdf",
         "05 Warehouse Count Marta Notes.pdf"
@@ -1498,7 +1498,7 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Use reconstructed accounts, with the inventory variance disclosed.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: management figures do not reconcile to primary evidence.",
-      "studentReasoning": "Draft for Dans to verify: Valuation should use the reconciled EUR 72,000 profit and EUR 132,000 closing equity, with the residual inventory uncertainty disclosed.",
+      "studentReasoning": "I would use the reconstructed accounts as a working basis for valuation, not claim that every uncertainty has disappeared. In particular, I would disclose the €9,000 materials discrepancy and the unresolved opening-insurance evidence, and I would show the disposal-cost scenario separately.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1507,7 +1507,7 @@
         "equity": 0
       },
       "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Presentation or board decision; no incremental journal entry."
     },
@@ -1568,7 +1568,7 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Dispose of damaged stock",
-      "answer": "Approve; dispose of the unsaleable stock and use the EUR 2,000 disposal provision.",
+      "answer": "Approve disposal of unsaleable stock, but do not use a EUR 2,000 provision unless a present obligation at 31 August is established; show the quoted cost conditionally.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "11 Evidence Received After Takeover.pdf"
@@ -1621,7 +1621,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Reject the unsupported EUR 312,000 management profit. Use EUR 72,000 as the current evidence-based working figure, subject to the disclosed unresolved items.",
+      "answer": "Reject the unsupported EUR 312,000 management profit. Use EUR 74,000 as the current evidence-based working figure, subject to the disclosed unresolved items and the earn-out definition.",
       "evidence": [
         "01 USE THIS NUMBERS FINAL v9.xlsx",
         "02 Bank Export August.csv",
@@ -1630,7 +1630,7 @@
       "confidence": "medium",
       "aiProposal": "Agent 1 summary: Reject EUR 312,000 management profit as the earn-out basis.",
       "independentChallenge": "Agent 2 independent analysis: Independently agreed: the reconstructed EUR 72,000 profit is the supported base.",
-      "studentReasoning": "Draft for Dans to verify: An earn-out must use corrected, evidence-supported profit. The reconstructed figure is EUR 72,000, with the inventory variance separately disclosed.",
+      "studentReasoning": "I would reject management’s unsupported €312,000 profit claim as the working earn-out basis. With no €2,000 disposal provision, the current reconstructed profit is €74,000. I would still check the earn-out agreement’s definition of profit and resolve the disclosed uncertainties before treating that amount as a final contractual figure.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1638,8 +1638,8 @@
         "liabilities": 0,
         "equity": 0
       },
-      "changedFromAI": false,
-      "reviewStatus": "draft_for_student_review",
+      "changedFromAI": true,
+      "reviewStatus": "student_reviewed",
       "agentDisagreement": false,
       "effectBasis": "Presentation or board decision; no incremental journal entry."
     }
@@ -1702,7 +1702,7 @@
       "closingInventory": 121000,
       "unresolvedConsumptionNarrative": 405000,
       "unresolvedVariance": 9000,
-      "disposalProvision": 2000,
+      "disposalProvision": 0,
       "countBreakdown": [
         {
           "item": "Finally Single materials",
@@ -1736,8 +1736,8 @@
       "depreciation": 24000,
       "badDebtExpense": 18000,
       "employeeClaimProvision": 25000,
-      "stockDisposalProvision": 2000,
-      "totalOperatingExpenses": 378000,
+      "stockDisposalProvision": 0,
+      "totalOperatingExpenses": 376000,
       "insurance": null,
       "insuranceEvidenceStatus": "No insurance amount supported by the supplied case files."
     },
@@ -1762,9 +1762,9 @@
     },
     "equityAndDistributions": {
       "openingEquity": 170000,
-      "profit": 72000,
+      "profit": 74000,
       "ownerDistributions": 110000,
-      "closingEquity": 132000,
+      "closingEquity": 134000,
       "distributionDetail": [
         {
           "item": "Villa reservation",
@@ -1790,10 +1790,10 @@
       "directEventPayroll": 80000,
       "costOfSales": 498000,
       "grossProfit": 462000,
-      "operatingExpenses": 378000,
-      "operatingProfit": 84000,
+      "operatingExpenses": 376000,
+      "operatingProfit": 86000,
       "interestExpense": 12000,
-      "profitForPeriod": 72000
+      "profitForPeriod": 74000
     },
     "cashFlow": {
       "customerReceipts": 899000,
@@ -1825,17 +1825,17 @@
       "deferredRevenue": 90000,
       "interestPayable": 2000,
       "employeeClaimProvision": 25000,
-      "stockDisposalProvision": 2000,
+      "stockDisposalProvision": 0,
       "bankLoan": 131000,
-      "totalLiabilities": 408000,
-      "equity": 132000,
+      "totalLiabilities": 406000,
+      "equity": 134000,
       "totalLiabilitiesAndEquity": 540000
     }
   },
   "reconciliations": [
     {
       "name": "Balance sheet",
-      "calculation": "540000 assets = 408000 liabilities + 132000 equity",
+      "calculation": "540000 assets = 406000 liabilities + 134000 equity",
       "result": "pass",
       "status": "pass",
       "difference": 0
@@ -1891,7 +1891,7 @@
     },
     {
       "name": "Equity",
-      "calculation": "170000 opening + 72000 profit - 110000 distributions = 132000",
+      "calculation": "170000 opening + 74000 profit - 110000 distributions = 134000",
       "result": "pass",
       "status": "pass",
       "difference": 0
@@ -1916,8 +1916,8 @@
       "issue": "Damaged-stock disposal estimate",
       "amount": 2000,
       "confidence": "medium",
-      "status": "judgment",
-      "treatment": "The post-takeover quote estimates EUR 2,000 removal cost. The current reconstruction provides for this amount; the obligation basis should be reviewed."
+      "status": "conditional_scenario",
+      "treatment": "The independent quote estimates EUR 2,000 removal cost, but no present obligation at 31 August has been established. The main accounts do not recognise a provision. If a present obligation is evidenced, profit would be EUR 72,000, liabilities EUR 408,000, and equity EUR 132,000."
     },
     {
       "issue": "Depreciation estimate",
@@ -1935,11 +1935,11 @@
     }
   ],
   "boardRecommendation": {
-    "recommendation": "Use the reconstructed accounts as the working basis for decisions while investigating the EUR 9000 inventory difference and seeking the missing opening insurance evidence. Freeze owner-card access, enforce payment approvals, and monitor cash weekly.",
+    "recommendation": "Use the student-reviewed EUR 74,000-profit accounts as the working basis for decisions while investigating the EUR 9,000 inventory difference, seeking the missing opening insurance evidence, and keeping the EUR 2,000 disposal quote as a conditional scenario. Freeze owner-card access, enforce payment approvals, and monitor cash weekly.",
     "keyFigures": {
-      "profit": 72000,
+      "profit": 74000,
       "closingCash": 60000,
-      "closingEquity": 132000
+      "closingEquity": 134000
     },
     "priorityActions": [
       "Freeze owner-card access and require board approval for related-party payments.",
@@ -2035,9 +2035,25 @@
       "href": "/evidence/11%20Evidence%20Received%20After%20Takeover.pdf"
     }
   ],
-  "analysisStatus": "proposed_reconstruction_pending_student_certification",
+  "analysisStatus": "material_judgments_student_reviewed_operational_decisions_pending",
   "notes": {
-    "materialTrail": "Agent 1 and Agent 2 positions are paraphrased from their available independent summaries. They are not verbatim quotations or a record of student certification.",
-    "statementEffects": "Material-decision effects are standalone or classification effects, as stated per record. Related decisions repeat the same accounting issue and must not be summed."
+    "materialTrail": "The 25 studentReasoning entries contain Dans Stepanovs’s edited personal explanations, reviewed in conversation. Agent 1 and Agent 2 positions remain paraphrases of their independent summaries, not verbatim quotations. The 75 operational decision records remain marked pending for individual review.",
+    "statementEffects": "Material-decision effects are standalone or classification effects, as stated per record. Related decisions repeat the same accounting issue and must not be summed. D058 excludes the conditional EUR 2,000 disposal provision from the main accounts."
+  },
+  "scenarios": {
+    "mainAccounts": {
+      "basis": "No disposal provision: no present obligation established at 31 August",
+      "profit": 74000,
+      "totalAssets": 540000,
+      "totalLiabilities": 406000,
+      "totalEquity": 134000
+    },
+    "conditionalDisposalProvision": {
+      "basis": "Recognise EUR 2,000 provision only if a present disposal obligation at 31 August is evidenced",
+      "profit": 72000,
+      "totalAssets": 540000,
+      "totalLiabilities": 408000,
+      "totalEquity": 132000
+    }
   }
 }
